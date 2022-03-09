@@ -14,6 +14,8 @@
 
 本リポジトリは、 [Linuxbrew][BREW] を用いて、システム及び [Linuxbrew][BREW] のパッケージとして提供されていないソフトウェアをソースコードからビルドしてインストールし、パッケージとして管理する為に必要となる [Linuxbrew][BREW] の拡張コマンドである ```brew diy, brew switch``` を再導入する為の [Linuxbrew][BREW] 向けの Tap リポジトリです。
 
+なお、 ```brew diy, brew switch``` コマンドの詳細については、 "[Linuxbrew 若しくは Homebrew を用いた野良ビルドパッケージの管理手法][QIIT]" を参照して下さい。
+
 ## 使用法
 
 まず最初に、以下に示す Qiita の投稿及び Web ページの記述に基づいて、手元の端末に [Linuxbrew][BREW] を構築し、以下のように  ```brew tap``` コマンドを用いて本リポジトリを導入します。
@@ -49,6 +51,7 @@
 <!-- 外部リンク一覧 -->
 
 [BREW]:https://linuxbrew.sh/
+[QIIT]:https://qiita.com/z80oolong/items/dd3b8e5024c36df9b35b
 [THER]:https://qiita.com/thermes
 [THBR]:https://qiita.com/thermes/items/926b478ff6e3758ecfea
 [BSD2]:https://opensource.org/licenses/BSD-2-Clause
